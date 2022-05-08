@@ -5,7 +5,7 @@
 
 ## Demo
 
- Here is a working live demo : [DEMO](https://marcin082.github.io/livescore-app/)
+ Here is a working live demo : [DEMO](https://marcin082.github.io/news-app/)
 
 
 ![](src/assets/screen1.png)
