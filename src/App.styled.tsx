@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { createGlobalStyle } from 'styled-components'
 export const AppWrapper = styled.div`
     text-align: center;
+    width:100%;
 `
 export const GlobalStyle = createGlobalStyle`
   body {
