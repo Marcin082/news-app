@@ -1,12 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {ThemeProvider} from 'styled-components'
+import { Provider } from "react-redux";
+import store from './redux/store';
+const theme = {
+  colors:{
+    dark:'#363636',
+    grey:'#BABABA',
+  },
+  fonts:{
+    main: 'Oswald, sans-serif',
+    heading:'Cabin, sans-serif',
+    interFont: 'Inter, sans-serif'
+  }
+}
 ReactDOM.render(
   <React.StrictMode>
+    <ThemeProvider theme={theme}>
+    <Provider store={store}>
     <App />
+    </Provider>
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
