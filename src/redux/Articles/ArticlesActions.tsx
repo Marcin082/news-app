@@ -8,8 +8,8 @@ export const getArticles = (option:String) => {
     axios
       .get<Articles>(
         !option.includes('q=')?
-        `https://newsapi.org/v2/top-headlines?country=us${option}&pageSize=30&apiKey=9fe21f158d6446568e1bf5c118ef7bc0`:
-        `https://newsapi.org/v2/everything?${option}&apiKey=9fe21f158d6446568e1bf5c118ef7bc0`
+        `https://newsapi.org/v2/top-headlines?country=us${option}&pageSize=30&apiKey=7929319b2de7410cb4b73874f4167a2e`:
+        `https://newsapi.org/v2/everything?${option}&apiKey=7929319b2de7410cb4b73874f4167a2e`
         )
       .then((response) => {
         console.log(response.data)
