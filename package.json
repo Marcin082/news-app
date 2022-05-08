@@ -1,5 +1,5 @@
 {
-  "homepage": "https://marcin082.github.io/news-app/",
+  "homepage": "https://marcin082.github.io/news-app",
   "name": "news-app",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,7 @@
     "@types/react-dom": "^17.0.14",
     "axios": "^0.26.1",
     "date-and-time": "^2.3.1",
+    "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
@@ -29,8 +30,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -56,7 +57,6 @@
   },
   "devDependencies": {
     "@types/react-slick": "^0.23.8",
-    "@types/styled-components": "^5.1.24",
-    "gh-pages": "^3.2.3"
+    "@types/styled-components": "^5.1.24"
   }
 }
