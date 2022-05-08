@@ -3,9 +3,7 @@
 ## About
  You can see all the latest news from all over the world here. In addition, information from the stock exchange and the currency market can also be found on our page.Thanks to us, the weather in your city will always be known.
 
-## Demo
-
- Here is a working live demo : [DEMO](https://marcin082.github.io/news-app/)
+## Look
 
 
 ![](src/assets/screen1.png)
