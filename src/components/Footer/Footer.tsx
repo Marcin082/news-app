@@ -3,7 +3,6 @@ import { useDispatch } from 'react-redux';
 import { Margins } from '../../App.styled';
 import { getArticles } from '../../redux/Articles/ArticlesActions';
 import { Wrapper,About,Nav,TopTopics,Logo,Links,NavLink,Globe,Head,Description,NavOption } from './Footer.styled';
-
 const Footer = () => {
     const dispatch=useDispatch();
     return (
