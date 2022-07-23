@@ -1,8 +1,8 @@
-import { Weather } from "../../types/types"
-import { ActionWeatherTypes, weatherAction } from "./WeatherTypes"
+import { Weather } from '../../types/types'
+import { ActionWeatherTypes, weatherAction } from './WeatherTypes'
 
 const initialState = {
-  weather:{},
+  weather: {}
 }
 interface State{
   weather:Weather|any,
@@ -12,7 +12,7 @@ export const weatherReducer = (state:State = initialState, action:weatherAction)
     case ActionWeatherTypes.GET_WEATHER:
       return {
         ...state,
-        weather:action.payload
+        weather: action.payload
       }
 
     default: return state

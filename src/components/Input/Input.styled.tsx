@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ImSearch } from 'react-icons/im';
+import { ImSearch } from 'react-icons/im'
 export const Wrapper = styled.div`
   display:flex;
   align-items:center;

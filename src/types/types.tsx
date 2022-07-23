@@ -96,20 +96,6 @@ export interface Stock{
     twoHundredDayAverageChangePercent: number,
     typeDisp: string,
 }
-export interface Weather{
-    address: string,
-    alerts: any,
-    currentConditions: any,
-    days: Day[],
-    description: string,
-    latitude: number,
-    longitude: number,
-    queryCost: number,
-    resolvedAddress: string,
-    stations: any,
-    timezone: string,
-    tzoffset: number
-}
 export interface Day{
     cloudcover: number,
     conditions: string,
@@ -148,4 +134,19 @@ export interface Day{
     winddir: number,
     windgust: number,
     windspeed: number,
+}
+
+export interface Weather{
+    address: string,
+    alerts: any,
+    currentConditions: any,
+    days: Day[],
+    description: string,
+    latitude: number,
+    longitude: number,
+    queryCost: number,
+    resolvedAddress: string,
+    stations: any,
+    timezone: string,
+    tzoffset: number
 }

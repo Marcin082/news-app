@@ -1,10 +1,10 @@
-import {  Stock } from "../../types/types"
-import { ActionsCurrenciesTypes, currenciesAction } from "./CurrencyTypes"
+import { Stock } from '../../types/types'
+import { ActionsCurrenciesTypes, currenciesAction } from './CurrencyTypes'
 
 const initialState = {
   loading: false,
   error: '',
-  currencies:[]
+  currencies: []
 }
 interface State{
   loading: boolean,

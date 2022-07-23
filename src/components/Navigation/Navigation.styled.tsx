@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import { ImSearch } from 'react-icons/im';
-import { ImMenu } from 'react-icons/im';
-import { Link } from 'react-router-dom';
+import { ImSearch, ImMenu } from 'react-icons/im'
+
+import { Link } from 'react-router-dom'
 
 export const NaviagtionWrapper = styled.header`
   display:flex;

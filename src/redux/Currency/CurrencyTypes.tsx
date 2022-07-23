@@ -1,4 +1,5 @@
-import { Stock } from "../../types/types";
+/* eslint-disable no-unused-vars */
+import { Stock } from '../../types/types'
 
 export enum ActionsCurrenciesTypes {
   FETCH_CURRENCIES_REQUEST='FETCH_CURRENCIES_REQUEST',

@@ -1,5 +1,5 @@
-import styled, { keyframes } from "styled-components";
-import { WiDegrees } from 'react-icons/wi';
+import styled from 'styled-components'
+import { WiDegrees } from 'react-icons/wi'
 
 export const Wrapper = styled.div`
   background: hsla(214, 84%, 48%, 1);

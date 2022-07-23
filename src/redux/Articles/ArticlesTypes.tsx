@@ -1,8 +1,9 @@
-import { Article, Articles } from "../../types/types";
+/* eslint-disable no-unused-vars */
+import { Article, Articles } from '../../types/types'
 
 export enum ActionArticlesTypes {
-  GET_ARTICLES = "GET_ARTICLES",
-  SET_ARTICLE = "SET_ARTICLE",
+  GET_ARTICLES = 'GET_ARTICLES',
+  SET_ARTICLE = 'SET_ARTICLE',
   FETCH_ARTICLES_REQUEST='FETCH_ARTICLES_REQUEST',
   FETCH_ARTICLES_FAILURE='FETCH_ARTICLES_FAILURE'
 }

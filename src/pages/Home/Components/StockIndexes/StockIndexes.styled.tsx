@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes } from 'styled-components'
 export const scrolling = keyframes`
   0% { transform: translateX(0); }
     100% { transform: translateX(calc(-250px * 9))}

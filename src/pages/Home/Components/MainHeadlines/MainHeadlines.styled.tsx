@@ -1,6 +1,5 @@
 import styled from 'styled-components'
-import { Link } from 'react-router-dom';
-
+import { Link } from 'react-router-dom'
 
 export const Wrapper = styled.div`
     display: grid;
@@ -56,7 +55,6 @@ export const ArticleLink = styled(Link)`
     }
 `
 
-
 export const Description = styled.h1`   
     justify-self: center;
     width:100%;
@@ -99,4 +97,3 @@ export const SideArticleImg = styled.img`
     color:white;
     background-color:white;
 `
-

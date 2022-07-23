@@ -1,8 +1,7 @@
-import axios from "axios";
-import {  Weather } from "../../types/types";
-import { ActionWeatherTypes } from "./WeatherTypes";
-const KEY1="Y8ZMBVT79Z4TJAQG53F8M5A42"
-const KEY2="HQDGK3R2LFVM6BVHM9NYF3CRY"
+import axios from 'axios'
+import { Weather } from '../../types/types'
+import { ActionWeatherTypes } from './WeatherTypes'
+const KEY1 = 'Y8ZMBVT79Z4TJAQG53F8M5A42'
 export const getWeather = (location:String) => {
   return function (dispatch: any) {
     axios
@@ -11,9 +10,8 @@ export const getWeather = (location:String) => {
         console.log(response.data)
         dispatch({
           type: ActionWeatherTypes.GET_WEATHER,
-          payload: response.data,
-        });
+          payload: response.data
+        })
       })
-  };
-};
-
+  }
+}
